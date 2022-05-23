@@ -1,0 +1,218 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.roteiro {
+  height: 100vh;
+  background: #00C2CB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roteiro__container {
+  min-height: 60%;
+  width: 60%;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 32px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.roteiro__title {
+  margin-bottom: 32px;
+  color: #303030;
+}
+
+.roteiro__form {
+  width: 100%;
+  flex-direction: column;
+  float: left;
+  justify-content: space-between;
+}
+
+.roteiro__input-destino {
+  height: 28px;
+  width: 93%;
+  float: left;
+  margin: 10px;
+  box-sizing: border-box;
+  padding-left: 8px;
+  border: unset;
+  outline: none;
+  position: relative;
+  border: 1px solid #303030;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.roteiro__input {
+  height: 28px;
+  width: 45%;
+  float: left;
+  margin: 10px 10px;
+  box-sizing: border-box;
+  padding-left: 8px;
+  border: unset;
+  outline: none;
+  position: relative;
+  border: 1px solid #303030;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.roteiro__input:hover{
+  opacity: 1;
+  border: solid 2px #F75590;
+  background-color: #fff;
+}
+
+.roteiro__input-destino:hover{
+  opacity: 1;
+  border: solid 2px #F75590;
+  background-color: #fff;
+}
+
+.roteiro__input:focus{
+  opacity: 1;
+  border: solid 2px #00C2CB;
+  background-color: #fff;
+}
+
+.roteiro__input-destino:focus{
+  opacity: 1;
+  border: solid 2px #00C2CB;
+  background-color: #fff;
+}
+
+.roteiro__submit {
+  height: 48px;
+  width: 100%;
+  padding-left: 8px;
+  outline: none;
+  position: relative;
+  background: linear-gradient(120deg, #F75590, #00C2CB, #F75590);
+  background-size: 200%;
+  margin-bottom: 32px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: unset;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.Cadastro__submit {
+  height: 35px;
+  width: 25%;
+  padding: 8px;
+  outline: none;
+  position: relative;
+  margin: 10px 270px;
+  background: linear-gradient(120deg, #F75590, #00C2CB, #F75590);
+  background-size: 200%;
+  margin-bottom: 32px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: unset;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.Cadastro__voltar{
+  height: 35px;
+  width: 12%;
+  padding: 8px;
+  outline: none;
+  position:relative;
+  margin: 8px auto 0 auto;
+  background: linear-gradient(120deg, #F75590, #00C2CB, #F75590);
+  background-size: 200%;
+  margin-bottom: 32px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: unset;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.roteiro__submit:hover {
+  background-position: right;
+}
+
+.roteiro__submit.success {
+  background: rgb(18, 151, 107);
+}
+
+.roteiro__submit.error {
+  background: rgb(255, 0, 0);
+}
+
+.roteiro__reset {
+  font-size: 12px;
+  color: #00C2CB;
+  text-decoration: none;
+}
+
+.Cadastro__submit:hover {
+  background-position: right;
+}
+
+.Cadastro__submit.success {
+  background: rgb(18, 151, 107);
+}
+
+.Cadastro__submit.error {
+  background: rgb(255, 0, 0);
+}
+
+.Cadastro__voltar:hover{
+  background-position:right;
+}
+
+.roteiro__container-table {
+  min-height: 80%;
+  width: 80%;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 32px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto 0 auto;
+  border: 1px solid #303030;
+  border-radius: 8px;
+  background: #fff;
+  align-items: center;
+  border-collapse: collapse;
+  color: #303030;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+th{
+  border: 1px solid #303030;
+  border-radius: 8px;
+}
+
+td{
+  border: 1px solid #303030;
+  border-radius: 8px;
+  text-align: center;
+}
